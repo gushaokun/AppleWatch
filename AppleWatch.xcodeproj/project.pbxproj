@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8686F0151C44DF9D0002652B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8686F0141C44DF9D0002652B /* main.m */; };
+		8686F0181C44DF9D0002652B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8686F0171C44DF9D0002652B /* AppDelegate.m */; };
+		8686F01B1C44DF9D0002652B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8686F01A1C44DF9D0002652B /* MasterViewController.m */; };
+		8686F01E1C44DF9D0002652B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8686F01D1C44DF9D0002652B /* DetailViewController.m */; };
+		8686F0211C44DF9D0002652B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8686F01F1C44DF9D0002652B /* Main.storyboard */; };
+		8686F0231C44DF9D0002652B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8686F0221C44DF9D0002652B /* Assets.xcassets */; };
+		8686F0261C44DF9D0002652B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8686F0241C44DF9D0002652B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8686F0101C44DF9D0002652B /* AppleWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8686F0141C44DF9D0002652B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8686F0161C44DF9D0002652B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8686F0171C44DF9D0002652B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8686F0191C44DF9D0002652B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		8686F01A1C44DF9D0002652B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		8686F01C1C44DF9D0002652B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8686F01D1C44DF9D0002652B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8686F0201C44DF9D0002652B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8686F0221C44DF9D0002652B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8686F0251C44DF9D0002652B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8686F0271C44DF9D0002652B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8686F00D1C44DF9D0002652B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8686F0071C44DF9D0002652B = {
+			isa = PBXGroup;
+			children = (
+				8686F0121C44DF9D0002652B /* AppleWatch */,
+				8686F0111C44DF9D0002652B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8686F0111C44DF9D0002652B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8686F0101C44DF9D0002652B /* AppleWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8686F0121C44DF9D0002652B /* AppleWatch */ = {
+			isa = PBXGroup;
+			children = (
+				8686F0161C44DF9D0002652B /* AppDelegate.h */,
+				8686F0171C44DF9D0002652B /* AppDelegate.m */,
+				8686F0191C44DF9D0002652B /* MasterViewController.h */,
+				8686F01A1C44DF9D0002652B /* MasterViewController.m */,
+				8686F01C1C44DF9D0002652B /* DetailViewController.h */,
+				8686F01D1C44DF9D0002652B /* DetailViewController.m */,
+				8686F01F1C44DF9D0002652B /* Main.storyboard */,
+				8686F0221C44DF9D0002652B /* Assets.xcassets */,
+				8686F0241C44DF9D0002652B /* LaunchScreen.storyboard */,
+				8686F0271C44DF9D0002652B /* Info.plist */,
+				8686F0131C44DF9D0002652B /* Supporting Files */,
+			);
+			path = AppleWatch;
+			sourceTree = "<group>";
+		};
+		8686F0131C44DF9D0002652B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8686F0141C44DF9D0002652B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8686F00F1C44DF9D0002652B /* AppleWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8686F02A1C44DF9D0002652B /* Build configuration list for PBXNativeTarget "AppleWatch" */;
+			buildPhases = (
+				8686F00C1C44DF9D0002652B /* Sources */,
+				8686F00D1C44DF9D0002652B /* Frameworks */,
+				8686F00E1C44DF9D0002652B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleWatch;
+			productName = AppleWatch;
+			productReference = 8686F0101C44DF9D0002652B /* AppleWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8686F0081C44DF9D0002652B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Gavin;
+				TargetAttributes = {
+					8686F00F1C44DF9D0002652B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8686F00B1C44DF9D0002652B /* Build configuration list for PBXProject "AppleWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8686F0071C44DF9D0002652B;
+			productRefGroup = 8686F0111C44DF9D0002652B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8686F00F1C44DF9D0002652B /* AppleWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8686F00E1C44DF9D0002652B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8686F0261C44DF9D0002652B /* LaunchScreen.storyboard in Resources */,
+				8686F0231C44DF9D0002652B /* Assets.xcassets in Resources */,
+				8686F0211C44DF9D0002652B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8686F00C1C44DF9D0002652B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8686F0181C44DF9D0002652B /* AppDelegate.m in Sources */,
+				8686F01B1C44DF9D0002652B /* MasterViewController.m in Sources */,
+				8686F0151C44DF9D0002652B /* main.m in Sources */,
+				8686F01E1C44DF9D0002652B /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8686F01F1C44DF9D0002652B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8686F0201C44DF9D0002652B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8686F0241C44DF9D0002652B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8686F0251C44DF9D0002652B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8686F0281C44DF9D0002652B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8686F0291C44DF9D0002652B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8686F02B1C44DF9D0002652B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppleWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavin.AppleWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8686F02C1C44DF9D0002652B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppleWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavin.AppleWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8686F00B1C44DF9D0002652B /* Build configuration list for PBXProject "AppleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8686F0281C44DF9D0002652B /* Debug */,
+				8686F0291C44DF9D0002652B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8686F02A1C44DF9D0002652B /* Build configuration list for PBXNativeTarget "AppleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8686F02B1C44DF9D0002652B /* Debug */,
+				8686F02C1C44DF9D0002652B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8686F0081C44DF9D0002652B /* Project object */;
+}
